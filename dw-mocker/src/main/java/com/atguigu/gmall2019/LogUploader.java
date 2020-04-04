@@ -11,7 +11,7 @@ import java.net.URL;
 public class LogUploader {
     public static void sendLogStream(String log){
         try{
-            //不同的日志类型对应不同的URL
+            //不同的日志类型对应不同的URL 11
 
             URL url  =new URL("http://hadoop102/log");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
